@@ -1,0 +1,35 @@
+body{
+    height:100%;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.traffic-light{
+    width:100px;
+    height:300px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+.light{
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    margin: 10px;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color:yellow;
+}
+.green{
+    background-color:green;
+}
